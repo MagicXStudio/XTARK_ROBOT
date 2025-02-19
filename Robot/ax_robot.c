@@ -58,7 +58,7 @@ uint8_t ax_beep_ring = 0;
 JOYSTICK_TypeDef my_joystick;  
 
 //控制方式选择
-uint8_t ax_control_mode = CTL_ROS;
+uint8_t ax_control_mode = CTL_PS2;
 
 //机器人掉电保存参数变量
 uint16_t ax_param[10];
